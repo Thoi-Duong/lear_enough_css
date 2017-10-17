@@ -2,10 +2,16 @@
 .header {
   background-color: #000;
   color: #fff;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  height: 10vh;
+  width: 100%;
 }
 .header-logo {
   background-color: #000;
   box-sizing: border-box;
+  left: -30px;
   display: block;
   height: 10vh;
   padding-top: 10px;
