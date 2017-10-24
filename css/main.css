@@ -68,10 +68,9 @@
 }
 .full-hero {
   background-color: #c7dbfc;
-  box-sizing: border-box;
-  height: 100vh;
-  padding-top: 10vh;
   background-size: cover;
+  box-sizing: border-box;
+  height: 90vh;
 }
 .full-hero:after {
   border: 10px solid;
@@ -110,6 +109,17 @@
   color: #fff;
 }
 /* HOMEPAGE STYLES */
+.home-section h4 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.home-section .post-header {
+  text-align: center;
+}
+.home-section .blog-posts {
+  margin: auto;
+  width: 75%;
+}
 .home-section {
   margin: 6rem auto;
   max-width: 980px;
@@ -120,15 +130,20 @@
   text-align: center;
 }
 .home-callout {
+  align-items: center;
   background-color: #000;
   color: #fff;
+  display: flex;
   padding: 7vh 0;
 }
 .callout-title {
+  flex: 1;
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
 .callout-copy {
+  flex: 0 0 45em;
   font-size: 0.8rem;
+  padding: 0 3vw;
 }
